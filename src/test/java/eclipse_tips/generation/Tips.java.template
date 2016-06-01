@@ -1,0 +1,23 @@
+package org.learnwithllew.eclipsetips;
+
+public interface $ClassName
+{
+#foreach($tip in $tips)
+ /**
+   * <table>
+   *  <tr> <th colspan="2"> $tip.getName() </tr>
+   *  <tr>
+   *   <th>Command</th>
+   *   <th>ShortCut</th>
+   *  </tr>
+   #foreach($shortcut in $commons.asArray($tip.getTips()))
+   *  <tr  bgcolor="$commons.ternary($shortcut.isEven(),"lightgray","darkgrey")">
+   *   <td> $shortcut.get().getName() </td>
+   *   <td> $shortcut.get().getShortcut($ClassName) </td>
+   *  </tr>
+   #end
+   * </table>
+  **/
+    public void _$tip.getName()();
+#end
+}

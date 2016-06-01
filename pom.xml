@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.learnwithllew</groupId>
 	<artifactId>eclipse-tips</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>Eclipse Tips</name>
 	<description>Shortcut help for Eclipse</description>
 	<url>http://github.com/learnwithllew/</url>
@@ -25,7 +25,7 @@
 		</license>
 	</licenses>
 	<scm>
-		<url>http://svn.apache.org/viewvc/maven</url>
+		<url>https://github.com/LearnWithLlew/EclipseTips.git</url>
 	</scm>
 	<build>
 		<resources>
@@ -37,5 +37,4 @@
 			</resource>
 		</resources>
 	</build>
-
 </project>

@@ -1,0 +1,44 @@
+package org.learnwithllew.eclipsetips;
+
+public class EclipseTips
+{
+ /**
+   * <table>
+#foreach($tip in $tips)
+   *  <tr> <th colspan="2"> $tip.getName() </tr>
+   *  <tr>
+   *   <th>Command</th>
+   *   <th>ShortCut</th>
+   *  </tr>
+#foreach($shortcut in $commons.asArray($tip.getTips()))
+   *  <tr  bgcolor="$commons.ternary($shortcut.isEven(),"lightgray","darkgrey")">
+   *   <td> $shortcut.get().getName() </td>
+   *   <td> $shortcut.get().getShortcut("WindowsShortCuts") </td>
+   *  </tr>
+#end
+   *  <tr><td colspan="2">&nbsp;</br>&nbsp;</td></tr>
+#end
+   * </table>
+   **/
+    public static WindowsShortCuts Windows(){return null;}
+
+ /**
+   * <table>
+#foreach($tip in $tips)
+   *  <tr> <th colspan="2"> $tip.getName() </tr>
+   *  <tr>
+   *   <th>Command</th>
+   *   <th>ShortCut</th>
+   *  </tr>
+#foreach($shortcut in $commons.asArray($tip.getTips()))
+   *  <tr  bgcolor="$commons.ternary($shortcut.isEven(),"lightgray","darkgrey")">
+   *   <td> $shortcut.get().getName() </td>
+   *   <td> $shortcut.get().getShortcut("MacShortCuts") </td>
+   *  </tr>
+#end
+   *  <tr><td colspan="2">&nbsp;</br>&nbsp;</td></tr>
+#end
+   * </table>
+   **/
+    public static MacShortCuts Mac(){return null;}
+}
