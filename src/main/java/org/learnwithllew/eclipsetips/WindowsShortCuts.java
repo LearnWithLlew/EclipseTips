@@ -26,26 +26,26 @@ public interface WindowsShortCuts
   public void _Lines();
   /**
    * <table>
-   *  <tr> <th colspan="2"> </br>Refactorings (Ctrl+Alt) </tr>
+   *  <tr> <th colspan="2"> </br>Refactorings (Alt + Shift) </tr>
    *  <tr>
    *   <th>Command</th>
    *   <th>ShortCut</th>
    *  </tr>
    *  <tr  bgcolor="darkgrey">
    *   <td> Extract (L)ocal Variable </td>
-   *   <td> Ctrl + Alt + L
+   *   <td> Alt + Shift + L
    *  </tr>
-   *  <tr  bgcolor="lightgray">
-   *   <td> (I)nline </td>
-   *   <td> Ctrl + Alt + I
+   *    <tr  bgcolor="lightgray">
+   *   <td> Extract (M)ethod </td>
+   *   <td> Alt + Shift + M
    *  </tr>
    *  <tr  bgcolor="darkgrey">
-   *   <td> Extract (M)ethod </td>
-   *   <td> Ctrl + Alt + M
+   *   <td> (I)nline </td>
+   *   <td> Alt + Shift + I
    *  </tr>
    *  <tr  bgcolor="lightgray">
    *   <td> (R)ename </td>
-   *   <td> Ctrl + Alt + R
+   *   <td> Alt + Shift + R
    *  </tr>
    **/
   public void _Refactorings();
