@@ -99,6 +99,10 @@ public interface MacShortCuts
    *   <td> Move Line </td>
    *   <td> Alt + &#11014;/&#11015; </td>
    *  </tr>
+      *  <tr  bgcolor="lightgray">
+   *   <td> New Line (from anywhere) </td>
+   *   <td> Shift + Enter </td>
+   *  </tr>
       * </table>
   **/
     public void _Lines();

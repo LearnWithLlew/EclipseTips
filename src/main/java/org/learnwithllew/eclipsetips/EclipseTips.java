@@ -87,6 +87,10 @@ public class EclipseTips
    *   <td> Move Line </td>
    *   <td> Alt + &#11014;/&#11015; </td>
    *  </tr>
+   *  <tr  bgcolor="lightgray">
+   *   <td> New Line (from anywhere) </td>
+   *   <td> Shift + Enter </td>
+   *  </tr>
    *  <tr><td colspan="2">&nbsp;</br>&nbsp;</td></tr>
    * </table>
    **/
@@ -176,6 +180,10 @@ public class EclipseTips
    *  <tr  bgcolor="darkgrey">
    *   <td> Move Line </td>
    *   <td> Alt + &#11014;/&#11015; </td>
+   *  </tr>
+   *  <tr  bgcolor="lightgray">
+   *   <td> New Line (from anywhere) </td>
+   *   <td> Shift + Enter </td>
    *  </tr>
    *  <tr><td colspan="2">&nbsp;</br>&nbsp;</td></tr>
    * </table>

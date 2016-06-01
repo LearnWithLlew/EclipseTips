@@ -15,7 +15,7 @@ public class TipsGeneration
   private static final String upDown = "&#11014;/&#11015;";
   public void testName() throws Exception
   {
-    EclipseTips.Mac();
+    EclipseTips.Windows();
   }
   @Test
   public void generateWindowsTips() throws Exception
@@ -52,6 +52,7 @@ public class TipsGeneration
                           new ShortCut("Grow Selection", "Alt + Shift + " + upDown,
                               "Ctrl + Shift + fn + " + upDown),
                           new ShortCut("Duplicate Line", "Ctrl + Alt + " + upDown, "Command + Alt + " + upDown),
-                          new ShortCut("Move Line", "Alt + " + upDown, "Alt + " + upDown)),};
+                          new ShortCut("Move Line", "Alt + " + upDown, "Alt + " + upDown),
+                          new ShortCut("New Line (from anywhere)", "Shift + Enter", "Shift + Enter")),};
   }
 }
