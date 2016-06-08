@@ -1,14 +1,9 @@
 package eclipse_tips.generation;
 
-import java.io.File;
 import java.io.IOException;
 
 import org.junit.Test;
 import org.learnwithllew.eclipsetips.EclipseTips;
-
-import com.spun.util.io.FileUtils;
-import com.spun.util.velocity.ContextAware.ContextAwareMap;
-import com.spun.util.velocity.VelocityParser;
 
 public class TipsGeneration
 {
@@ -26,13 +21,13 @@ public class TipsGeneration
   }
   private void createShortCuts(String className, String template) throws IOException
   {
-    File file = new File(
-        "/Users/llewellyn/Github/EclipseTips/src/main/java/org/learnwithllew/eclipsetips/" + className + ".java");
-    Tips[] tips = getTips();
-    ContextAwareMap model = new ContextAwareMap("tips", tips);
-    model.put("ClassName", className);
-    String java = VelocityParser.parseFromClassPath(this.getClass(), template, model);
-    FileUtils.writeFile(file, java);
+    //    File file = new File(
+    //        "/Users/llewellyn/Github/EclipseTips/src/main/java/org/learnwithllew/eclipsetips/" + className + ".java");
+    //    Tips[] tips = getTips();
+    //    ContextAwareMap model = new ContextAwareMap("tips", tips);
+    //    model.put("ClassName", className);
+    //    String java = VelocityParser.parseFromClassPath(this.getClass(), template, model);
+    //    FileUtils.writeFile(file, java);
   }
   private Tips[] getTips()
   {

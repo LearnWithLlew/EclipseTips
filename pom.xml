@@ -27,6 +27,14 @@
 	<scm>
 		<url>https://github.com/LearnWithLlew/EclipseTips.git</url>
 	</scm>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 	<build>
 		<resources>
 			<resource>
@@ -37,4 +45,16 @@
 			</resource>
 		</resources>
 	</build>
+	<profiles>
+		<profile>
+			<id>download-sources</id>
+			<properties>
+				<downloadSources>true</downloadSources>
+				<downloadJavadocs>true</downloadJavadocs>
+			</properties>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+	</profiles>
 </project>
