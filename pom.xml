@@ -8,7 +8,7 @@
 
 	<groupId>org.learnwithllew</groupId>
 	<artifactId>eclipse-tips</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>Eclipse Tips</name>
 	<description>Shortcut help for Eclipse</description>
 	<url>http://github.com/learnwithllew/</url>
