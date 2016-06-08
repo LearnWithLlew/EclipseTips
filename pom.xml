@@ -24,7 +24,10 @@
 		</license>
 	</licenses>
 	<scm>
-		<url>https://github.com/LearnWithLlew/EclipseTips.git/tags/eclipse-tips-1.0.0</url>
+		<connection>scm:git:git@github.com:LearnWithLlew/EclipseTips.git</connection>
+		<url>scm:git:git@github.com:LearnWithLlew/EclipseTips.git</url>
+		<developerConnection>scm:git:git@github.com:LearnWithLlew/EclipseTips.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 	<dependencies>
 		<dependency>
